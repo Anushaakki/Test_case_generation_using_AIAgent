@@ -44,7 +44,7 @@ automotive-test-case-generator/
 
 **1. Clone the repo**
 ```bash
-https://github.com/Anushaakki/Test_case_generation_using_AIAgent
+[https://github.com/Anushaakki/Test_case_generation_using_AIAgent](https://github.com/Anushaakki/Test_case_generation_using_AIAgent.git)
 cd automotive-test-case-generator
 ```
 
