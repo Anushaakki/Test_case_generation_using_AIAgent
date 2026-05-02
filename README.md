@@ -32,15 +32,12 @@ Each test case is broken into multiple rows in the CSV:
 ## Project Structure
 
 ```
-your_project_folder/
+automotive-test-case-generator/
 │
-├── generate_test_cases.py   ← main script
-├── config.py                ← your OpenAI API key (never push this to Git)
-├── smaple.xlsx              ← sample test case file (defines column format)
-├── your_feature_spec.pdf    ← input feature specification
-├── requirements.txt         ← dependencies
-├── .gitignore               ← keeps config.py and output CSV out of Git
-└── test_cases_generated.csv ← output file (auto-created when you run the script)
+├── generate_test_cases.py
+├── README.md
+├── requirements.txt
+└── .gitignore
 ```
 
 ---
