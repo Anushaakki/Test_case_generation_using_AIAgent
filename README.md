@@ -2,8 +2,6 @@
 
 An AI-powered tool that reads an automotive feature specification PDF and automatically generates structured test cases in CSV format — ready to import into test management tools like JIRA, qTest, or any HIL/SIL test framework.
 
-Built for ADAS (Advanced Driver Assistance Systems) testing workflows following ISO 26262 / ASPICE standards.
-
 ---
 
 ## What It Does
