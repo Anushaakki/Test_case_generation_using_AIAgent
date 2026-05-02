@@ -49,7 +49,7 @@ your_project_folder/
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/yourusername/automotive-test-case-generator.git
+
 cd automotive-test-case-generator
 ```
 
@@ -64,7 +64,6 @@ Create a file called `config.py` in the same folder and add your OpenAI API key:
 ```python
 api_key = "sk-xxxxxxxxxxxxxxxxxxxxxxxx"
 ```
-> ⚠️ Never commit `config.py` to Git. It is already listed in `.gitignore`.
 
 **4. Add your files**
 
@@ -142,19 +141,7 @@ Parse JSON → insert empty separator rows between test cases
 Write to CSV (preserving exact column order from sample)
 ```
 
----
 
-## Coverage
-
-The tool generates test cases for every item found in the spec:
-
-| Spec Section | Example Items | Test Cases Generated |
-|---|---|---|
-| Functional Requirements | REQ_ACC_001 to REQ_ACC_004 | 1 per requirement |
-| Operational Scenarios | Scenario 1 to Scenario 4 | 1 per scenario |
-| Interface & Diagnostics | CAN-FD, DTC P1500, DID 0x4001, DID 0x4002 | 1 per item |
-
----
 
 ## Dependencies
 
